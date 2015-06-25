@@ -1,0 +1,10 @@
+<resources>
+    <string name="title_activity_keyboard_settings">CypherBoard Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_key">Key</string>
+</resources>
