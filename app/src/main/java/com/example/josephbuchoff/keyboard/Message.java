@@ -83,7 +83,7 @@ public class Message {
         returns a char
         Encodes a single char with the key and returns the encoded char
      */
-    private char encodeChar (char c)
+    public char encodeChar (char c)
     {
         int index = ALPHANUM.indexOf(c);    // Set index to the position in the list of characters of char c ex. 'a' = 1, 'b' = 2...
 
@@ -112,6 +112,7 @@ public class Message {
 
         for (int i = 0; i < len; i++) {
             decBuilder.append(decodeChar(enc.charAt(i)));  // Append to the builder the decoded character at i
+            //adecBuilder.append('-');//debug
         }
 
         return decBuilder.toString();
@@ -122,7 +123,7 @@ public class Message {
         returns a char
         Decodes the char and returns it
      */
-    public char decodeChar (char c)
+    public char decodeChar (char c)  //debug
     {
         int index = key.indexOf(c); // Set the index to the place in key where char c lies
 
@@ -133,7 +134,7 @@ public class Message {
         returns a char
         Decodes the first character in the String and returns it
      */
-    public char decodeChar (String s)
+    public char decodeChar (String s)//debug
     {
         return decodeChar(s.charAt(0));
     }

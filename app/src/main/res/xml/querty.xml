@@ -38,7 +38,7 @@
         <Key android:codes="106" android:keyLabel="j"/>
         <Key android:codes="107" android:keyLabel="k"/>
         <Key android:codes="108" android:keyLabel="l"/>
-        <Key android:codes="35,64" android:keyLabel="\# \@" android:keyEdgeFlags="right"/>
+        <Key android:codes="35,64,27" android:keyLabel="\# \@ \'" android:keyEdgeFlags="right"/>
     </Row>
     <Row>
         <Key android:codes="-1" android:keyLabel="CAPS" android:keyEdgeFlags="left" android:keyWidth="15%p"/>
@@ -50,7 +50,7 @@
         <Key android:codes="110" android:keyLabel="n" android:keyWidth="7%p"/>
         <Key android:codes="109" android:keyLabel="m" android:keyWidth="7%p"/>
         <Key android:codes="46" android:keyLabel="." android:keyWidth="7%p"/>
-        <Key android:codes="0" android:keyLabel="Dec." android:keyWidth="15%p"/>
+        <Key android:codes="999" android:keyLabel="Enc/Dec" android:keyWidth="15%p"/>
         <Key android:codes="63,33,58" android:keyLabel="\? ! :" android:keyWidth="15%p" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
